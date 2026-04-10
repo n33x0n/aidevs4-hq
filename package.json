@@ -1,0 +1,33 @@
+{
+  "name": "agent",
+  "type": "module",
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro"
+  },
+  "dependencies": {
+    "@astrojs/check": "^0.9.6",
+    "@astrojs/react": "^4.4.2",
+    "@tailwindcss/vite": "^4.2.1",
+    "@types/react": "^19.2.14",
+    "@types/react-dom": "^19.2.3",
+    "astro": "^5.17.1",
+    "better-sqlite3": "^12.6.2",
+    "langfuse": "^3.38.6",
+    "openai": "^6.27.0",
+    "react": "^19.2.4",
+    "react-dom": "^19.2.4",
+    "sqlite-vec": "^0.1.7-alpha.2",
+    "ssh2": "^1.17.0",
+    "tailwindcss": "^4.2.1",
+    "typescript": "^5.9.3"
+  },
+  "devDependencies": {
+    "@types/better-sqlite3": "^7.6.13",
+    "@types/node": "^25.4.0",
+    "@types/ssh2": "^1.15.5"
+  }
+}
